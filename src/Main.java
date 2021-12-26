@@ -23,16 +23,16 @@ public class Main {
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
         System.out.println("\nzad. 2a");
-        int[] atablica = {28, 67, 86, 50, 34};
-        for (int a = 0; a < atablica.length; a++) { System.out.print(atablica[a] + ", ");
+        int[] tablicaA = {28, 67, 86, 50, 34};
+        for (int a = 0; a < tablicaA.length; a++) { System.out.print(tablicaA[a] + ", ");
         }
         System.out.println("\nzad. 2b");
-        double[] btablica = {28.28, 67.67, 86.86, 50.50, 34.34};
-        for (int b = 0; b < btablica.length; b++) { System.out.print(btablica[b] + ", ");
+        double[] tablicaB = {28.28, 67.67, 86.86, 50.50, 34.34};
+        for (int b = 0; b < tablicaB.length; b++) { System.out.print(tablicaB[b] + ", ");
         }
         System.out.println("\nzad. 2c");
-        String[] ctablica = {"Two", "Six", "Eight", "Five", "Three"};
-        for (int c = ctablica.length - 1; c >= 0 ; c--) { System.out.print(ctablica[c] + ", ");
+        String[] tablicaC = {"Two", "Six", "Eight", "Five", "Three"};
+        for (int c = tablicaC.length - 1; c >= 0 ; c--) { System.out.print(tablicaC[c] + ", ");
         }
 
         /* zad.3
