@@ -24,7 +24,7 @@ public class Main {
         int[] tabliczka = new int[5];
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Poniżej podaj pięć elementów tablicy: \n");
+        System.out.println("Poniżej podaj pięć elementów tablicy: ");
         int n0 = scan.nextInt();
         tabliczka[0] = n0;
         int n1 = scan.nextInt();
