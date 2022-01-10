@@ -10,6 +10,25 @@ public class Main {
         c) w trzeciej pętli return
         */
 
+        System.out.println("zad. 1a");
+        for (int i = 100; i >= 0; i--) {
+            if (i == 62)
+                break;
+            System.out.print(i + ", ");
+        }
 
+        System.out.println("\n\nzad. 1b");
+        for (int i = 50; i >= 0; i--) {
+            if (i % 2 == 0)
+                continue;
+            System.out.print(i + ", ");
+        }
+
+        System.out.println("\n\nzad. 1c");
+        for (int i = 100; i >= 0; i--) {
+            if (i == 62)
+                return;
+            System.out.print(i + ", ");
+        }
     }
 }
